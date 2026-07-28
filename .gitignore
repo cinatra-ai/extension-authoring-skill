@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output (tsconfig outDir)
+dist/
+
+# Lockfile — extension repos ship none; CI installs with --no-frozen-lockfile
+pnpm-lock.yaml
+
+# Package tarballs (npm pack)
+*.tgz
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# macOS / editor cruft
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Internal planning notes (owner policy: local-only, untracked)
+.planning/

@@ -1,0 +1,20 @@
+{
+  "name": "@cinatra-ai/extension-authoring-skill",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "description": "The Cinatra chat assistant's extension-package authoring methodology — one router bundle carrying the kind-agnostic spine (kind selection, trust/confirmation flow, validator contract, six-stage package lifecycle) with per-kind references for agent, workflow, artifact and skill packages. Consolidated from the five extension-authoring bundles of @cinatra-ai/assistant-skills (cinatra#2090).",
+  "type": "module",
+  "files": [
+    "skills"
+  ],
+  "cinatra": {
+    "apiVersion": "cinatra.ai/v1",
+    "kind": "skill",
+    "displayName": "Extension Authoring Skill",
+    "skillRole": "injectable",
+    "dependencies": [],
+    "capabilities": {
+      "skill.chat-extension-authoring": "chat-extension-authoring"
+    }
+  }
+}
